@@ -1,43 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+# House Price Prediction in Bangalore
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>House Price Prediction in Bangalore</title>
-</head>
+## Overview
+This Data Science and Machine Learning project, created by a team of three members (Vivek Kumar Dhoke, Triveni Patle, and Zaira Ali), aims to predict house prices in Bangalore using a Linear Regression model. The project includes a Flask server to deploy a website for users to interact with the prediction model.
 
-<body>
+## Project Structure
+1. **Data Collection:** Gathered data on house prices in Bangalore, including relevant features like area, number of bedrooms, etc.
+2. **Data Preprocessing:** Cleaned and prepared the dataset for training the machine learning model.
+3. **Model Training:** Utilized a Linear Regression algorithm to train the model on the prepared dataset.
+4. **Web Application:** Implemented a Flask server to create a user-friendly website for predicting house prices.
 
-    <h1>House Price Prediction in Bangalore</h1>
+## Features
+- **Linear Regression Model:** Accurately predicts house prices based on input features.
+- **Web Interface:** Users can input property details and receive instant predictions on the website.
 
-    <h2>Overview</h2>
-    <p>This Data Science and Machine Learning project, created by a team of three members (Vivek Kumar Dhoke, Triveni Patle, and Zaira Ali), aims to predict house prices in Bangalore using a Linear Regression model. The project includes a Flask server to deploy a website for users to interact with the prediction model.</p>
+## Installation
+1. Clone the repository: `git clone [repository_url]`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the Flask server: `python app.py`
 
-    <h2>Installation</h2>
-    <ol>
-        <li>Clone the repository: <code>git clone [repository_url]</code></li>
-        <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
-        <li>Run the Flask server: <code>python app.py</code></li>
-    </ol>
+## Usage
+1. Access the website hosted by the Flask server.
+2. Enter property details (area, bedrooms, etc.) in the provided form.
+3. Click the "Predict" button to receive the predicted house price.
 
-    <h2>Usage</h2>
-    <ol>
-        <li>Access the website hosted by the Flask server.</li>
-        <li>Enter property details (area, bedrooms, etc.) in the provided form.</li>
-        <li>Click the "Predict" button to receive the predicted house price.</li>
-    </ol>
+## Team Members
+- Vivek Kumar Dhoke
+- Triveni Patle
+- Zaira Ali
 
-    <h2>Team Members</h2>
-    <ul>
-        <li>Vivek Kumar Dhoke</li>
-        <li>Triveni Patle</li>
-        <li>Zaira Ali</li>
-    </ul>
-
-    <h2>Acknowledgments</h2>
-    <p>Inspired by the need for accurate house price predictions. Special thanks to the team members for their dedication and hard work.</p>
-
-</body>
-
-</html>
+## Acknowledgments
+- Inspired by the need for accurate house price predictions.
+- Special thanks to the team members for their dedication and hard work.
