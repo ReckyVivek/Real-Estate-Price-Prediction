@@ -14,9 +14,9 @@ This Data Science and Machine Learning project, created by a team of three membe
 - **Web Interface:** Users can input property details and receive instant predictions on the website.
 
 ## Installation
-1. Clone the repository: `git clone [repository_url]`
+1. Clone the repository: `git clone https://github.com/ReckyVivek/minorProject-SIRT.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the Flask server: `python app.py`
+3. Run the Flask server: `python server.py`
 
 ## Usage
 1. Access the website hosted by the Flask server.
