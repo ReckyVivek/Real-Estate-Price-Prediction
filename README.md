@@ -14,7 +14,7 @@ This Data Science and Machine Learning project, created by a team of three membe
 - **Web Interface:** Users can input property details and receive instant predictions on the website.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/ReckyVivek/minorProject-SIRT.git`
+1. Clone the repository: `git clone https://github.com/ReckyVivek/Real-Estate-Price-Prediction.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the Flask server: `python server.py`
 4. Run the app.html : `file using Live Server`
